@@ -7,7 +7,7 @@ ul.posts li {
     list-style: none;
 }
 
-.fa-icon {
+.fa-icon:hover {
     color: #01579b;
 }
 
