@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: default
 title: Mantha Labs
 ---
 <br><br><br>
@@ -8,29 +8,35 @@ title: Mantha Labs
         <br><br><br>                  
         <h1> Hi! I'm Abhishek. </h1>
         <h5> I want to build the future <br> of transportation and mobility. </h5>
-        <br><a class="btn-large pulse waves-effect waves-light light-blue darken-4" href="/blog"> See how </a>
+        <!-- <br><a class="btn-large pulse waves-effect waves-light light-blue darken-4" href="/blog"> See how </a> -->
     </div>
     <div class="col s3 offset-s1">
         <img class="responsive-img profile-pic" src="/assets/imgs/personal.jpg">
     </div>
 </div>
-<!-- <div class="row">
-    <div class="col s12 m4">
+<div class="row">
+    <div class="col s12 m3">
       <div class="center">
-        {% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}"><i class="fa icon-github icon-5x"></i></a>{% endif %}
+        {% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}"><i class="fa fa-github fa-5x fa-icon"></i></a>{% endif %}
       </div>
     </div>
 
-    <div class="col s12 m4">
+    <div class="col s12 m3">
+        <div class="center">
+            {% if site.footer-links.medium %}<a href="https://medium.com/@{{ site.footer-links.medium }}"><i class="fa fa-medium fa-5x fa-icon"></i></a>{% endif %}
+        </div>
+    </div>
+
+    <div class="col s12 m3">
       <div class="center">
-        {% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}"><i class="fa icon-envelope icon-5x"></i></a>{% endif %}
+        {% if site.footer-links.linkedin %}<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="fa fa-linkedin-square fa-5x fa-icon"></i></a>{% endif %}
       </div>
     </div>
 
-    <div class="col s12 m4">
+    <div class="col s12 m3">
       <div class="center">
-        {% if site.footer-links.linkedin %}<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="fa icon-linkedin-sign icon-5x"></i></a>{% endif %}
+        {% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}"><i class="fa fa-envelope fa-5x fa-icon"></i></a>{% endif %}
       </div>
     </div>
 </div>
- -->
+
